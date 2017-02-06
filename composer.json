@@ -1,0 +1,12 @@
+{
+    "require": {
+        "silex/silex": "1.*",
+        "twig/twig": "1.29.0",
+        "symfony/twig-bridge": "2.6.*"
+    },
+    "autoload" :{
+        "psr-4":{
+            "SiApi\\" :"src/SiApi/"
+        }
+    }
+}
